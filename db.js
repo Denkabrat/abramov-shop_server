@@ -1,4 +1,6 @@
-const {Sequelize} = require('sequelize');
+const {
+    Sequelize
+} = require('sequelize');
 
 module.exports = new Sequelize(
 
@@ -7,14 +9,14 @@ module.exports = new Sequelize(
     process.env.DB_PASSWORD, //user pass
 
     {
-        dialect:'postgres',
+        dialect: 'postgres',
         protocol: 'postgres',
         dialectOptions: {
             ssl: {
-              require: true,
-              rejectUnauthorized: false // или true, в зависимости от конфигурации вашего сервера
+                require: true,
+                rejectUnauthorized: false // или true, в зависимости от конфигурации вашего сервера
             }
-          },
+        },
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
     }
