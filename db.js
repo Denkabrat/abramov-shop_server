@@ -15,7 +15,10 @@ module.exports = new Sequelize(
             ssl: {
                 require: true,
                 rejectUnauthorized: true // или true, в зависимости от конфигурации вашего сервера
-            }
+            },
+            options: {
+                connectTimeout: 60000, // Увеличьте таймаут соединения (в миллисекундах)
+              },
         },
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
