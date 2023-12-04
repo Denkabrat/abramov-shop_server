@@ -7,12 +7,7 @@
     "dev": "nodemon index.js",
     "build": "nodemon index.js",
     "start": "node index.js",  
-    "prestart": "npm run build",  
-    "postinstall": "sequelize db:migrate",  
-    "migrate": "sequelize db:migrate", 
-    "seed": "sequelize db:seed:all", 
-    "rollback": "sequelize db:migrate:undo:all",  
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm run build"
   },
   "author": "Abramov",
   "license": "ISC",
