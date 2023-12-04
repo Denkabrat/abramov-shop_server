@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "build": "nodemon index.js",
-    "start": "node index.js",
-    "prestart": "npm run build"
+    "start": "node index.js"
   },
   "author": "Abramov",
   "license": "ISC",
