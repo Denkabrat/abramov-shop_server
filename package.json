@@ -4,7 +4,6 @@
   "description": "This e-shop created by Abramov",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
     "start": "nodemon index.js"
   },
   "author": "Abramov",
