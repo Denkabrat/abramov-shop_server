@@ -55,7 +55,7 @@ class PaymentController {
             },
             confirmation: {
                 type: 'redirect',
-                return_url: 'http://localhost:3000/account'
+                return_url: 'https://abramov-shop-client.onrender.com/account'
             },
         };
         
