@@ -14,7 +14,7 @@ module.exports = new Sequelize(
         dialectOptions: {
             ssl: {
                 require: true,
-                rejectUnauthorized: true // или true, в зависимости от конфигурации вашего сервера
+                rejectUnauthorized: false // или true, в зависимости от конфигурации вашего сервера
             },
         },
         host: process.env.DB_HOST,
