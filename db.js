@@ -10,7 +10,7 @@ module.exports = new Sequelize(
 
     {
         dialect: 'postgres',
-        // protocol: 'postgres',
+        protocol: 'postgres',
         dialectOptions: {
             ssl: {
                 require: true,
