@@ -55,7 +55,7 @@ class PaymentController {
             },
             confirmation: {
                 type: 'redirect',
-                return_url: 'https://abramov.shop/account'
+                return_url: 'https://www.abramova.shop/account'
             },
         };
         
