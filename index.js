@@ -8,6 +8,18 @@ const router = require('./routes/index');
 const errorHandler = require('./middleware/ErrorHandlingMiddleware');
 const fileUpload = require('express-fileupload');
 const path = require('path');
+const cors = require('cors');
+
+const allowedOrigins = ['https://abramova.shop', 'https://harmonious-flan-68744d.netlify.app'];
+app.use(cors({
+  origin: (origin, callback) => {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+}));
 
 
 const app = express();
