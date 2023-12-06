@@ -20,7 +20,7 @@ app.use(fileUpload({}));
 app.use('/api', router);
 app.use(errorHandler);
 
-const allowedOrigins = ['https://abramova.shop', 'https://harmonious-flan-68744d.netlify.app'];
+const allowedOrigins = ['https://abramova.shop', 'https://abramov-shop-client.vercel.app/'];
 app.use(cors({
   origin: (origin, callback) => {
     if (!origin || allowedOrigins.includes(origin)) {
