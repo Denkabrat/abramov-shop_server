@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "abramov_admin",
-    "password": "CKvfc1RtOF9w3CT5HSXq4ifSYw3z89C5",
-    "database": "abramov_shop",
-    "host": "dpg-cln16asjtl8s73ab9tig-a.oregon-postgres.render.com",
+    "username": "abramov",
+    "password": "P7ammk6qyNfd9qMslHM75H7fmVBeQ5u1",
+    "database": "abramovdb",
+    "host": "dpg-clnrjt0fvntc739fcio0-a.frankfurt-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
@@ -15,10 +15,10 @@
   },
   
   "test": {
-    "username": "abramov_admin",
-    "password": "CKvfc1RtOF9w3CT5HSXq4ifSYw3z89C5",
-    "database": "abramov_shop",
-    "host": "dpg-cln16asjtl8s73ab9tig-a.oregon-postgres.render.com",
+    "username": "abramov",
+    "password": "P7ammk6qyNfd9qMslHM75H7fmVBeQ5u1",
+    "database": "abramovdb",
+    "host": "dpg-clnrjt0fvntc739fcio0-a.frankfurt-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
@@ -30,10 +30,10 @@
   },
 
   "production": {
-    "username": "abramov_admin",
-    "password": "CKvfc1RtOF9w3CT5HSXq4ifSYw3z89C5",
-    "database": "abramov_shop",
-    "host": "dpg-cln16asjtl8s73ab9tig-a.oregon-postgres.render.com",
+    "username": "abramov",
+    "password": "P7ammk6qyNfd9qMslHM75H7fmVBeQ5u1",
+    "database": "abramovdb",
+    "host": "dpg-clnrjt0fvntc739fcio0-a.frankfurt-postgres.render.com",
     "dialect": "postgres",
     "port": 5432,
     "dialectOptions": {
