@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "This e-shop created by Abramov",
   "main": "index.js",
+  "engines": {
+    "node":"14.x"
+  },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Abramov",
   "license": "ISC",
