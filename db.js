@@ -1,6 +1,5 @@
-const {
-    Sequelize
-} = require('sequelize');
+const {Sequelize} = require('sequelize');
+const pg = require('pg');
 
 module.exports = new Sequelize(
 
