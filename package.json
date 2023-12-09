@@ -4,7 +4,7 @@
   "description": "This e-shop created by Abramov",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Abramov",
   "license": "ISC",
