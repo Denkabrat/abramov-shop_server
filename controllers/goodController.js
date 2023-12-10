@@ -18,14 +18,14 @@ class GoodController {
             allImages = await Promise.all(
               img.map(async (item) => {
                 const fileName = uuid.v4() + '.jpg';
-                await item.mv(path.resolve(__dirname, '..', 'static', fileName));
+                item.mv(path.resolve(__dirname, '..', 'static', fileName));
                 return fileName;
               })
             );
           } else {
             // Если img - это один файл
             const fileName = uuid.v4() + '.jpg';
-            await img.mv(path.resolve(__dirname, '..', 'static', fileName));
+            img.mv(path.resolve(__dirname, '..', 'static', fileName));
             allImages.push(fileName);
           }
     
