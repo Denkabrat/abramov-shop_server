@@ -8,7 +8,7 @@ const errorHandler = require('./middleware/ErrorHandlingMiddleware');
 const fileUpload = require('express-fileupload');
 const path = require('path');
 const cors = require('cors');
-
+const job = require('./cron.js').job
 
 
 
@@ -40,5 +40,5 @@ const start = async () => {
         console.log(e);
     }
 }
-
 start();
+job.start();
